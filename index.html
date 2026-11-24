@@ -624,7 +624,7 @@
             }
 
             .profile-photo {
-                height: 360px;
+                height: 92px;
             }
 
             .project-item {
@@ -693,6 +693,15 @@ a.search-result-item { display: block; }
 body { overflow-x: clip; }
 .top-section { position: sticky; top: 14px; z-index: 1001; flex-shrink: 0; }
 @media (max-width: 480px) { .top-section { top: 4px; } }
+
+/* Keep mobile profile and navigation consistent with desktop. */
+html { overflow-x: clip; }
+body { overflow-x: visible; }
+@media (max-width: 480px) {
+  .profile-photo { width: 92px; height: 92px; }
+  .top-section { position: sticky; top: 4px; height: 58px; flex-shrink: 0; }
+  .tabs-section { position: sticky; top: 66px; z-index: 100; flex-shrink: 0; }
+}
 </style>
 </head><body>
 <div class="static-background"></div>
