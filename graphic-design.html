@@ -333,7 +333,12 @@
                 font-size: 16px;
             }
         }
-    </style><style>
+    
+/* Sticky header */
+body { overflow-x: clip; }
+.header-nav { position: sticky; top: 14px; z-index: 1001; flex-shrink: 0; }
+@media (max-width: 480px) { .header-nav { top: 4px; } }
+</style><style>
 .bottom-button-container { margin-inline:auto; max-width:440px; } .bottom-button {display:block;width:100%;} @media(max-width:480px){.bottom-button-container{left:0;right:0;width:100%;margin-inline:auto;max-width:440px;} }
 </style></head> <body><div class="static-background"></div><div class="scrollable-content"> <!-- Header Navigation --> <div class="black-container header-nav"> <button class="btn-back" onclick="location.href='/'">
         ← На главную
