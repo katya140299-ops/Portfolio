@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<!-- saved from url=(0034)https://kreidder.ru/graphic-design -->
+<html lang="ru"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/> <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <!--metatextblock--> <title>Екатерина Крейдер · Графический дизайн</title> <meta content="Графический дизайн для брендов и экспертов: афиши, баннеры, презентации, полиграфия и визуальные концепции. Портфолио и условия сотрудничества." name="description"/> <meta content="разработка дизайна сайта, разработка дизайна сайта с нуля, создание дизайна сайта, услуги веб‑дизайнера, профессиональный дизайн сайта, индивидуальный дизайн сайта, современный дизайн сайта, адаптивный дизайн сайта, дизайн лендинга, дизайн многостраничног" name="keywords"/> <meta content="https://kreidder.ru/graphic-design" property="og:url"/> <meta content="Екатерина Крейдер · Графический дизайн" property="og:title"/> <meta content="Графический дизайн для брендов и экспертов: афиши, баннеры, презентации, полиграфия и визуальные концепции. Портфолио и условия сотрудничества." property="og:description"/> <meta content="website" property="og:type"/> <meta content="/assets/tild6361-3166-4864-b165-626463656139/photo.png" property="og:image"/> <link href="https://kreidder.ru/graphic-design" rel="canonical"/> <!--/metatextblock--> <meta content="telephone=no" name="format-detection"/> <meta content="on" http-equiv="x-dns-prefetch-control"/>   <!--favicons--> <link href="/assets/tild3364-3838-4935-b839-323933346163/favicon.png" media="(prefers-color-scheme: light)" rel="icon" sizes="32x32" type="image/png"/> <link href="/assets/tild3332-3233-4262-b362-626131656632/favicon.png" media="(prefers-color-scheme: dark)" rel="icon" sizes="32x32" type="image/png"/> <link href="/assets/tild3431-6236-4733-b331-313066616237/favicon.svg" rel="icon" sizes="any" type="image/svg+xml"/> <link href="/assets/tild6266-3730-4832-a630-343332346662/favicon.png" rel="apple-touch-icon" type="image/png"/> <link href="/assets/tild6266-3730-4832-a630-343332346662/favicon.png" rel="icon" sizes="192x192" type="image/png"/> <!--/favicons--> <!-- Assets -->    <link href="https://fonts.gstatic.com/" rel="preconnect"/>            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/><style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .static-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background-image: url('/assets/tild6632-3364-4133-a533-626266656266/photo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .scrollable-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 14px;
+            gap: 4px;
+        }
+
+        .black-container {
+            width: 440px;
+            background: #141218;
+            border-radius: 10px;
+        }
+
+        /* Header Navigation */
+        .header-nav {
+            height: 58px;
+            padding: 12px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .btn-back {
+            height: 34px;
+            background: transparent;
+            color: #CAC4D0;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            padding: 0 0px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            outline: none;
+            transition: color 0.2s ease;
+        }
+
+        .btn-back:hover {
+            color: rgba(202, 196, 208, 0.7);
+        }
+
+        .btn-services {
+            width: 71px;
+            height: 34px;
+            background: #FF590E;
+            border: none;
+            color: #fff;
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            transition: all 0.3s;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .btn-services:hover {
+            background: #2A2930;
+            border: 1px solid #303134;
+        }
+
+        /* Case Content */
+        .case-content {
+            padding: 14px;
+        }
+
+        .main-title {
+            font-size: 32px;
+            font-weight: 400;
+            margin-bottom: 26px;
+            line-height: 1.2;
+        }
+
+        .case-divider {
+            height: 1px;
+            background: #303134;
+            margin-bottom: 30px;
+        }
+
+        .case-item {
+            margin-bottom: 34px;
+        }
+
+        .case-subtitle {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .case-description {
+            margin-bottom: 30px;
+        }
+
+        .description-label {
+            color: #FF590E;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .description-text {
+            color: #CAC4D0;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-top: 5px;
+        }
+
+        .description-item {
+            margin-bottom: 14px;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            gap: 0px;
+            margin-bottom: 4px;
+        }
+
+        .gallery-row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4px;
+        }
+
+        .gallery-row-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4px;
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 0px;
+            background-size: cover;
+            background-position: center;
+            background-color: #2a2a2a;
+        }
+
+        .gallery-image.tall {
+            height: 256px;
+        }
+
+        .gallery-image.medium {
+            height: 256px;
+        }
+
+        /* Video Container - Vertical */
+        .video-container-vertical {
+            width: 100%;
+            max-width: 420px;
+            margin: 0 auto;
+            padding-bottom: 177.78%; /* 9:16 aspect ratio for vertical video */
+            background-color: #2a2a2a;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            height: 0;
+        }
+
+        .video-container-vertical iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Video Container - Horizontal (for future cases) */
+        .video-container {
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            background-color: #2a2a2a;
+            border-radius: 0px;
+            overflow: hidden;
+            position: relative;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Bottom Button */
+        .bottom-button-container {
+            width: 440px;
+            margin-top: 0px;
+        }
+
+        .bottom-button {
+            background: #FF590E;
+            border: none;
+            color: #fff;
+            padding: 0;
+            height: 42px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+        .bottom-button:hover {
+            background: #ffffff;
+            color: #131217;
+        }
+
+        /* Tablet Adaptation */
+        @media (max-width: 768px) {
+            .black-container {
+                width: calc(100vw - 28px);
+                max-width: 440px;
+            }
+
+            .bottom-button-container {
+                position: fixed;
+                bottom: 14px;
+                left: 14px;
+                right: 14px;
+                width: auto;
+                padding: 0;
+                background: transparent;
+                z-index: 100;
+                margin-top: 0;
+            }
+
+            .scrollable-content {
+                padding-bottom: 80px;
+            }
+        }
+
+        /* Mobile Adaptation */
+        @media (max-width: 480px) {
+            .scrollable-content {
+                padding: 4px;
+            }
+
+            .black-container {
+                width: 100%;
+            }
+
+            .main-title {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+
+            .case-subtitle {
+                font-size: 18px;
+            }
+
+            .gallery-row-3 {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-row-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-image {
+                height: 246px;
+            }
+
+            .gallery-image.tall {
+                height: 204px;
+            }
+
+            .gallery-image.medium {
+                height: 250px;
+            }
+
+            .video-container-vertical {
+                max-width: 100%;
+                padding-bottom: 177.78%;
+                height: 0;
+            }
+
+            .video-container {
+                padding-bottom: 56.25%;
+                height: 0;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .main-title {
+                font-size: 20px;
+            }
+
+            .case-subtitle {
+                font-size: 16px;
+            }
+        }
+    </style><style>
+.bottom-button-container { margin-inline:auto; max-width:440px; } .bottom-button {display:block;width:100%;} @media(max-width:480px){.bottom-button-container{left:0;right:0;width:100%;margin-inline:auto;max-width:440px;} }
+</style></head> <body><div class="static-background"></div><div class="scrollable-content"> <!-- Header Navigation --> <div class="black-container header-nav"> <button class="btn-back" onclick="location.href='/'">
+        ← На главную
+    </button> <button class="btn-services" onclick="location.href='/services'">
+        Услуги
+    </button> </div> <!-- Case Content --> <div class="black-container case-content"> <h1 class="main-title">Графический дизайн</h1> <div class="case-divider"></div> <!-- Case 1 --> <div class="case-item"> <h2 class="case-subtitle">Дизайн упаковка мероприятия</h2> <div class="case-description"> <div class="description-item"> <div class="description-label">Задача</div> <div class="description-text">Создать визуальную айдентику для офлайн-встречи с подписчиками: бейджи, 3D-стикеры и презентацию, которые не только украсят мероприятие, но и станут объектом для пользовательского контента в Instagram</div> </div> <div class="description-item"> <div class="description-label">Решение</div> <div class="description-text">Разработали броский дизайн в трендовой Instagram-палитре (красный, розовый, оранжевый) с узнаваемыми графическими элементами — звездами, волнами и эллипсами. Для бейджей применили инверсионную стратегию: яркие цвета с обеих сторон + мотивационные надписи</div> </div> <div class="description-item"> <div class="description-label">Результат</div> <div class="description-text">Участники сами создавали контент с нашим дизайном, органически продвигая бренд в соцсетях. Каждый элемент стал не просто атрибутом встречи, а полноценным инструментом маркетинга</div> </div> </div> <div class="image-gallery"> <div class="video-container-vertical"> <iframe allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write;" allowfullscreen="" src="https://kinescope.io/embed/ropj3ujDYGbBoFqtr2gPRC"></iframe> </div> </div> </div> </div> <!-- Bottom Button --> <div class="bottom-button-container"> <button class="bottom-button" onclick="window.location.href='https://t.me/+79969594109?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D1%81%D0%B0%D0%B9%D1%82%2C%20%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%20%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D1%87%D1%82%D0%BE%20%D0%BE%D1%82%20%D0%BD%D0%B0%D1%81%20%D1%82%D1%80%D0%B5%D0%B1%D1%83%D0%B5%D1%82%D1%81%D1%8F%3F'">Заказать дизайн</button> </div> </div><script data-tilda-cookie-type="analytics" type="text/javascript">setTimeout(function(){(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");window.mainMetrikaId='97706045';ym(window.mainMetrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true,params:{__ym:{"ymCms":{"cms":"tilda","cmsVersion":"1.0"}}},ecommerce:"dataLayer"});},2000);</script></body></html>

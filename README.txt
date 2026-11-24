@@ -1,0 +1,1 @@
+Перед удалением Tilda: откройте Terminal, перейдите в эту папку и выполните python3 download-assets.py. Дождитесь Downloaded 38 of 38. При ошибке не удаляйте Tilda. Загрузите четыре HTML, vercel.json и папку assets в корень GitHub. В Vercel выберите Other. Проверьте все страницы и прелоудер. Видео Kinescope и Google Fonts остаются внешними.
